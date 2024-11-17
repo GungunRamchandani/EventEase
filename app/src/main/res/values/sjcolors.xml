@@ -1,0 +1,9 @@
+<resources>
+    <color name="colorPrimary">#E94C58</color> <!-- Coral Red -->
+    <color name="colorPrimaryDark">#E94C58</color> <!-- Coral Red -->
+    <color name="colorAccent1">#A7DEE2</color> <!-- Light Cyan Blue -->
+    <color name="colorAccent2">#FFC145</color> <!-- Orange -->
+    <color name="colorBackground">#FDEEF3</color> <!-- Soft Pink -->
+    <color name="colorTextDark">#333333</color> <!-- Dark Gray -->
+    <color name="colorTextLight">#C2C2C2</color> <!-- Light Gray -->
+</resources>

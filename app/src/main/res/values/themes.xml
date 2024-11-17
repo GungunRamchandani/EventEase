@@ -1,9 +1,24 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Project" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<resources>
+
+    <!-- Light Theme -->
+    <style name="Theme.Vendor_comparison" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Coral Red -->
+        <item name="colorPrimaryDark">@color/colorPrimary</item> <!-- Coral Red -->
+        <item name="colorAccent">@color/colorAccent1</item> <!-- Light Cyan Blue -->
+        <item name="android:textColorPrimary">@color/colorTextDark</item> <!-- Dark Gray -->
+        <item name="android:textColorSecondary">@color/colorTextLight</item> <!-- Light Gray -->
+        <item name="android:windowBackground">@color/colorBackground</item> <!-- Soft Pink -->
+        <item name="android:buttonTint">@color/colorAccent2</item> <!-- Orange -->
     </style>
 
-    <style name="Theme.Project" parent="Base.Theme.Project" />
+    <!-- Dark Theme (optional) -->
+    <style name="Theme.Vendor_comparison.Dark" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">@color/colorPrimaryDark</item> <!-- Darker Coral Red -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Darker Coral Red -->
+        <item name="colorAccent">@color/colorAccent2</item> <!-- Orange -->
+        <item name="android:textColorPrimary">@color/colorTextLight</item> <!-- Light Gray -->
+        <item name="android:textColorSecondary">@color/colorTextDark</item> <!-- Dark Gray -->
+        <item name="android:windowBackground">@color/colorBackground</item> <!-- Soft Pink -->
+    </style>
+
 </resources>
