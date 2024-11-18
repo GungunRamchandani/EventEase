@@ -9,10 +9,10 @@ public class Event {
     private String venue;
     private String description;
     private String contact;
-    private int capacity;
-    private int volunteersRequired;
-    private int volunteersRegistered;
-    private int vendorsRequired;
+    private String capacity;
+    private String volunteersRequired;
+    private String volunteersRegistered;
+    private String vendorsRequired;
 
     // Default constructor
     public Event() {
@@ -20,8 +20,8 @@ public class Event {
 
     // Constructor with parameters
     public Event(String eventName, String highlight, String date, String time,
-                 String venue, String description, String contact, int capacity,
-                 int volunteersRequired, int volunteersRegistered, int vendorsRequired) {
+                 String venue, String description, String contact, String capacity,
+                 String volunteersRequired, String volunteersRegistered, String vendorsRequired) {
         this.eventName = eventName;
         this.highlight = highlight;
         this.date = date;
@@ -60,21 +60,27 @@ public class Event {
     public String getContact() { return contact; }
     public void setContact(String contact) { this.contact = contact; }
 
-    public int getCapacity() { return capacity; }
-    public void setCapacity(int capacity) { this.capacity = capacity; }
+    public String getCapacity() { return capacity; }
+    public void setCapacity(String capacity) { this.capacity = capacity; }
 
-    public int getVolunteersRequired() { return volunteersRequired; }
-    public void setVolunteersRequired(int volunteersRequired) {
+    public String getVolunteersRequired() { return volunteersRequired; }
+    public void setVolunteersRequired(String volunteersRequired) {
         this.volunteersRequired = volunteersRequired;
     }
 
-    public int getVolunteersRegistered() { return volunteersRegistered; }
-    public void setVolunteersRegistered(int volunteersRegistered) {
+    public String getVolunteersRegistered() {
+        return volunteersRegistered; }
+    public void setVolunteersRegistered(String volunteersRegistered) {
         this.volunteersRegistered = volunteersRegistered;
     }
 
-    public int getVendorsRequired() { return vendorsRequired; }
-    public void setVendorsRequired(int vendorsRequired) {
+    public String getVendorsRequired() { return vendorsRequired; }
+    public void setVendorsRequired(String vendorsRequired) {
         this.vendorsRequired = vendorsRequired;
+    }
+    public void incrementVolunteersRegistered() {
+        if (Integer.parseInt(volunteersRegistered) < Integer.parseInt(volunteersRequired)) {
+         //   volunteersRegistered++;
+        }
     }
 }

@@ -4,6 +4,8 @@
 
     <!-- Internet permission -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -36,6 +38,7 @@
         <activity android:name=".SJVMainActivity" />
         <activity android:name=".SJVAddUploadActivity" />
         <activity android:name=".ProfessionActivity" />
+        <activity android:name=".VolunteerRegistrationActivity" />
 
 
 
