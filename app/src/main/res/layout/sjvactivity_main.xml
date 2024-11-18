@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Vendor Name Title -->
+    <TextView
+        android:id="@+id/vendorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vendor's Name"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Layout to hold image uploads and prices -->
+    <LinearLayout
+        android:id="@+id/uploadsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vendorName"
+        android:orientation="vertical"
+        android:padding="8dp" />
+
+    <!-- Floating Action Button to add new upload -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/colorAccent" />
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
+
+
+<!--&lt;!&ndash;  xml6:<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.cardview.widget.CardView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:id="@+id/cardView"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="8dp"-->
+<!--    app:cardCornerRadius="8dp"-->
+<!--    app:cardElevation="4dp">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="16dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/eventName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/date"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/venue"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="4dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/highlight"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/viewDetailsButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="View Details"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:layout_marginTop="8dp"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.cardview.widget.CardView>xml7:<?xml version="1.0" encoding="utf-8"?>-->
+<!--<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <background android:drawable="@drawable/ic_launcher_background" />-->
+<!--    <foreground android:drawable="@drawable/ic_launcher_foreground" />-->
+<!--    <monochrome android:drawable="@drawable/ic_launcher_foreground" />-->
+<!--</adaptive-icon>xml8:<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    <color name="colorPrimary">#2196F3</color>-->
+<!--    <color name="colorPrimaryDark">#1976D2</color>-->
+<!--    <color name="colorAccent">#FF4081</color>-->
+<!--</resources>xml9:<resources>-->
+<!--    <string name="app_name">Project</string>-->
+<!--</resources> xml10:<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+<!--    &lt;!&ndash; Base application theme &ndash;&gt;-->
+
+
+<!--<style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">-->
+<!--<item name="colorPrimary">@color/colorPrimary</item>-->
+<!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--<item name="colorAccent">@color/colorAccent</item>-->
+<!--</style>-->
+<!--    </resources> now u only check&ndash;&gt;-->

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#A7DEE2"> <!-- Set the background color of the entire layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Seats"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"
+        android:textColor="#FFC145"/> <!-- Text color updated -->
+
+    <!-- FrameLayout wraps GridLayout and adds a border -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"> <!-- Black border around GridLayout -->
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/seatGridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:columnCount="5" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose seats"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#E94C58"/> <!-- Text color updated -->
+
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total: $0"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#E94C58"/> <!-- Text color updated -->
+
+    <!-- Place buttons in a bottom-aligned container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/selectSeatsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Seats"
+            android:textColor="#FFFFFF"
+        android:background="#E94C58"
+        android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/payNowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Now"
+            android:textColor="#FFFFFF"
+        android:background="#FFC145"
+        android:layout_marginTop="16dp" />
+    </LinearLayout>
+</LinearLayout>

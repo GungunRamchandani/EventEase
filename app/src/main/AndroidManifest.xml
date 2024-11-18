@@ -13,18 +13,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project"
+        android:theme="@style/Theme.Vendor_comparison"
         tools:targetApi="31">
 
         <!-- Main Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".AKMainActivity" />
+
+        <activity android:name=".SeatSelection" />
+        <activity android:name=".AKAddEventActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SSignupActivity" />
+        <activity android:name=".SJMainActivity" />
+        <activity android:name=".SJVMainActivity" />
+        <activity android:name=".SJVAddUploadActivity" />
+        <activity android:name=".ProfessionActivity" />
+
+
 
         <!-- Razorpay Payment Activity -->
         <activity
@@ -53,6 +66,8 @@
                 <action android:name="rzp.device_token.share" />
             </intent-filter>
         </receiver>
+
+
 
     </application>
 
