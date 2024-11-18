@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Project</string>
+    <!-- General App Information -->
+    <string name="app_name">EventEase</string>
+
+    <!-- User roles -->
+    <string-array name="user_roles">
+        <item>Volunteer</item>
+        <item>Organizer</item>
+        <item>Vendor</item>
+        <item>User</item>
+    </string-array>
+
+    <!-- Category array for Spinner -->
+    <string-array name="category_array">
+        <item>Lights</item>
+        <item>Stages</item>
+        <item>Decoration</item>
+    </string-array>
 </resources>
